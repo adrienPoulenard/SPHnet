@@ -26,10 +26,10 @@ import h5py
 datasets = datasets_list
 methods = methods_list
 
-MODELS_DIR = 'C:/Users/adrien/Documents/models'
-RESULTS_DIR = 'C:/Users/adrien/Documents/results'
-PRED_DIR = 'C:/Users/adrien/Documents/preds'
-# WEIGHTS_PATH = os.path.join(MODELS_DIR, 'C:/Users/adrien/Documents/models/dfaust_matching_augmented/btree_inv_conv_2019_06_06_13_40_12', 'weights.h5')
+MODELS_DIR = './models'
+RESULTS_DIR = './results'
+PRED_DIR = './preds'
+
 WEIGHTS_PATH = None
 
 assert(os.path.isdir(MODELS_DIR))
