@@ -1,8 +1,7 @@
 import os
 
 
-dataset_dir = 'C:/Users/adrien/Documents/Datasets/RF00001-family/hdf5_data'
-# dataset_dir = '/home/adrien/Documents/data/RF00001-family/hdf5_data'
+dataset_dir = './Datasets/RF00001-family/hdf5_data'
 
 train_files_list = os.path.join(dataset_dir, 'train_hdf5_file_list.txt')
 val_files_list = os.path.join(dataset_dir, 'val_hdf5_file_list.txt')
