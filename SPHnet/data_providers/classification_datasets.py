@@ -10,7 +10,7 @@ classes = ['airplane', 'bathtub', 'bed', 'bench', 'bookshelf', 'bottle',
            'piano', 'plant', 'radio', 'range_hood', 'sink', 'sofa', 'stairs',
            'stool', 'table', 'tent', 'toilet', 'tv_stand', 'vase', 'wardrobe', 'xbox']
 
-datset_dir = 'C:/Users/adrien/Documents/Datasets/ModelNet40_hdf5'
+datset_dir = './Datasets/ModelNet40_hdf5'
 
 train_files_list = os.path.join(datset_dir, 'train_files.txt')
 val_files_list = os.path.join(datset_dir, 'test_files.txt')
@@ -104,30 +104,3 @@ modelnet40rot_y = {'name': 'modelnet40rot_y',
 
 datsets_list = [modelnet40aligned_test_rot]
 
-
-"""
-datset_dir = 'C:/Users/adrien/Documents/Datasets/ModelNet40_hdf5'
-
-train_files_list = os.path.join(datset_dir, 'train_files.txt')
-val_files_list = os.path.join(datset_dir, 'test_files.txt')
-test_files_list = os.path.join(datset_dir, 'test_files.txt')
-
-train_data_folder = os.path.join(datset_dir, 'modelnet40_hdf5_2048_original_rotated/data_hdf5_multires')
-val_data_folder = os.path.join(datset_dir, 'modelnet40_hdf5_2048_original_rotated/data_hdf5_multires')
-test_data_folder = os.path.join(datset_dir, 'modelnet40_hdf5_2048_original_rotated/data_hdf5_multires')
-
-modelnet40rotated_multires = {'name': 'modelnet40aligned_multires',
-                     'num_classes': 40,
-                     'classes': classes,
-                     'train_data_folder': train_data_folder,
-                     'val_data_folder': val_data_folder,
-                     'test_data_folder': test_data_folder,
-                     'train_files_list': train_files_list,
-                     'val_files_list': val_files_list,
-                     'test_files_list': test_files_list,
-                     'train_preprocessing': [],
-                     'val_preprocessing': [],
-                     'test_preprocessing': []}
-
-datsets_list = [modelnet40rotated_multires]
-"""
