@@ -15,12 +15,10 @@ methods = methods_list
 
 
 
-MODELS_DIR = 'C:/Users/adrien/Documents/models'
-RESULTS_DIR = 'C:/Users/adrien/Documents/results'
+MODELS_DIR = './models'
+RESULTS_DIR = './results'
 
 WEIGHTS_PATH = None
-# WEIGHTS_PATH = 'C:/Users/adrien/Documents/models'
-# WEIGHTS_PATH = os.path.join(WEIGHTS_PATH, 'modelnet40rotated_augmented/btree_inv_conv_2019_08_01_15_53_54/weights.h5')
 
 assert(os.path.isdir(MODELS_DIR))
 assert(os.path.isdir(RESULTS_DIR))
