@@ -102,5 +102,5 @@ modelnet40rot_y = {'name': 'modelnet40rot_y',
 
 # datsets_list = [modelnet40rotated_augmented, modelnet40aligned]
 
-datsets_list = [modelnet40aligned_test_rot]
+datasets_list = [modelnet40aligned_test_rot]
 
