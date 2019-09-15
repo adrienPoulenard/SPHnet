@@ -8,9 +8,9 @@ import numpy as np
 from sklearn.metrics import confusion_matrix
 from utils.save_model import save_matrix, create_dir, save_model
 from methods.classification3_methods import methods_list
-from data_providers.classification_datasets import datsets_list
+from data_providers.classification_datasets import datasets_list
 
-datasets = datsets_list
+datasets = datasets_list
 methods = methods_list
 
 
