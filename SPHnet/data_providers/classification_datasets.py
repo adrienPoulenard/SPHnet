@@ -98,9 +98,5 @@ modelnet40rot_y = {'name': 'modelnet40rot_y',
                      'test_preprocessing': ['kd_tree_idx']}
 
 
-# datsets_list = [modelnet40aligned]
-
-# datsets_list = [modelnet40rotated_augmented, modelnet40aligned]
-
 datasets_list = [modelnet40aligned_test_rot]
 
