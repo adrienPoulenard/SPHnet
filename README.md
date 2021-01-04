@@ -34,7 +34,7 @@ train the network.
 
 # Segmentation 
 Segmentation datasets are specified similarly in data_providers/segmentation_datasets.py 
-you need to specify the number of parts. You can specify a path to save the results and trained models and the predicted 
+you need to specify the number of parts. You can specify a path to save the results and trained models as well as the predicted 
 labels for the test set (PRED_DIR), run the script to train the network on the segmentation dataset.
 
 
